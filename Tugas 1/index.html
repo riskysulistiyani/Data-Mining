@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Memahami Data - My Docs</title>
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="..">My Docs</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li >
+                                <a href="..">Welcome to MkDocs</a>
+                            </li>
+                            <li class="active">
+                                <a href="./">Memahami Data</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li >
+                                <a rel="next" href="..">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="disabled">
+                                <a rel="prev" >
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#memahami-data">Memahami Data</a></li>
+            <li><a href="#statistik-deskriptif">Statistik Deskriptif</a></li>
+            <li><a href="#contoh-program">Contoh Program</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="memahami-data">Memahami Data</h1>
+<h2 id="statistik-deskriptif">Statistik Deskriptif</h2>
+<p>Statistik deskriptif adalah metode dari pengorganisasian, penjumlahan, dan penyajian data dalam sebuah cara yang nyaman dan informatif, termasuk teknik grafik, dan teknik penghitungan.  Pada sesi tulisan ini teknik grafik tidak akan dibahas, penyajian teknik ini akan dijelaskan pada sesi tulisan yang lain.  Statistik deskriptif dapat mendeskripsikan data yang sedang dianalisis, tetapi tidak boleh menarik kesimpulan apapun dari data.  Untuk pengambilan keputusan, kita perlukan cabang dari ilmu statistik lainnya yaitu statistik inferensia.  Statistik inferensia akan dijelaskan pada sesi tulisan yang lain</p>
+<p><strong>Ukuran-ukuran statistik deskriptif</strong></p>
+<p>Ukuran statistik deskriptif dapat digolongkan menjadi dua kelompok, yaitu ukuran nilai tengah dan ukuran deviasi.  Ukuran nilai tengah terdiri dari rata-rata (<em>mean</em>), median, dan modus.  Sedangkan ukuran deviasi terdiri dari varians, simpangan baku, koefisien variasi, dan nilai jarak (<em>range</em>).  Ukuran-ukuran statistik deskriptif tersebut akan dijelaskan penggunaannya baik untuk data tunggal maupun data berkelompok.</p>
+<p><strong>Ukuran nilai tengah</strong></p>
+<p><strong>Rata-rata (Mean)</strong></p>
+<p>Rata-rata ditulis dengan menggunakan simbol  μ  (dibaca:”miu”) untuk menyatakan rata-rata populasi, dan<a href="https://digensia.files.wordpress.com/2012/03/x-bar3.png"><img alt="x bar" src="https://digensia.files.wordpress.com/2012/03/x-bar3.png?w=637" /></a>(dibaca: x bar) untuk menyatakan rata-rata sampel.  Secara aljabar rata-rata dapat ditulis sebagai berikut:</p>
+<p>​         untuk rata-rata populasi</p>
+<p>​                                                       <a href="https://digensia.files.wordpress.com/2012/03/rumus2.png"><img alt="rumus" src="https://digensia.files.wordpress.com/2012/03/rumus2.png?w=637" /></a></p>
+<p>​                        dimana N adalah banyaknya populasi</p>
+<p>​            untuk rata-rata sampel</p>
+<p>​                                                     <a href="https://digensia.files.wordpress.com/2012/03/rumus16.png"><img alt="rumus1" src="https://digensia.files.wordpress.com/2012/03/rumus16.png?w=637" /></a></p>
+<p>​                        dimana n adalah banyaknya sampel</p>
+<p>contoh:</p>
+<p>Dari 11 pohon pear menghasilkan buah dengan berat sbb (dlm Kg):</p>
+<p>330      284      326      268      236      346      326      402      374      292      380</p>
+<p>Hitunglah rata-rata produksi 11 pohon pear ?</p>
+<p><a href="https://digensia.files.wordpress.com/2012/03/r1.png"><img alt="R1" src="https://digensia.files.wordpress.com/2012/03/r1.png?w=637" /></a></p>
+<p>Jadi rata-rata produksi dari 11 pohon pear adalah 324 Kg.</p>
+<p><strong>Rata-rata untuk data berkelompok</strong>.</p>
+<p>Apabila data sudah disajikan dalam data berkelompok seperti dalam bentuk tabel frekuensi dimana observasi-observasi dikelompokan kedalam kelas-kelas yang disebut frekuensi, maka rumus rata-ratanya adalah sebagai berikut:</p>
+<p>​        <a href="https://digensia.files.wordpress.com/2012/03/r2.png"><img alt="R2" src="https://digensia.files.wordpress.com/2012/03/r2.png?w=444&amp;h=198" /></a></p>
+<p>Contoh:  Hitunglah rata-rata nilai statistik dari 50 mahasiswa pada Table 1 dibawah ini.</p>
+<p>​                                    <a href="https://digensia.files.wordpress.com/2012/03/r3.png"><img alt="R3" src="https://digensia.files.wordpress.com/2012/03/r3.png?w=427&amp;h=435" /></a></p>
+<p>​                      Jadi perkiraan rata-rata nilai statistik 50 mahasiswa adalah 65,7.</p>
+<p><strong>Median</strong></p>
+<p>Ukuran nilai tengah lainnya yang mungkin dapat merupakan pilihan selain rata-rata adalah median.  Jika data pada contoh produksi buah pear diurutkan dari nilai terkecil hingga ke nilai terbesar, maka nilai tengahnya adalah 326 kg  artinya lima pohon pear mempunyai produksi dibawahnya dan lima pohon pear mempunyai produksi diatasnya.  Nilai tengah inilah yang dikatakan <strong>median</strong>. Penentuan median bisa langsung didapat jika jumlah observasinya adalah ganjil, namun jika jumlah observasinya adalah genap maka akan didapat dua nilai tengah. Dalam situasi demikian, untuk mendapatkan mediannya yaitu dengan merata-ratakan dua nilai tengah yang didapat.  Prosedur untuk mendapatkan median yaitu harus mengurutkan data dari yang terkecil hingga yang terbesar terlebih dahulu sebelum mengambil nilai tengahnya.  Dengan kata lain median adalah data yang ke <a href="https://digensia.files.wordpress.com/2012/03/r41.png"><img alt="R4" src="https://digensia.files.wordpress.com/2012/03/r41.png?w=637" /></a> .</p>
+<p><strong>Median untuk data berkelompok</strong></p>
+<p>Untuk data yang sudah dikelompokkan dan disajikan dalam tabel frekuensi, maka mediannya dapat dicari dengan rumus sebagai berikut:</p>
+<p><a href="https://digensia.files.wordpress.com/2012/03/r5.png"><img alt="R5" src="https://digensia.files.wordpress.com/2012/03/r5.png?w=440&amp;h=211" /></a></p>
+<p><strong>Kelas median</strong> adalah kelas dimana terdapat nilai median di dalamnya. Untuk menentukan kelas median bagilah seluruh observasi dengan dua artinya 50 % dari seluruh observasi terletak sebelum median dan 50 % lainnya terletak sesudahnya.  Jika kita lihat tabel frekuensi (Tabel 1) maka mediannya merupakan observasi yang ke (50/2) yaitu yang ke 25.  Jumlah tiga frekuensi pertama (<em>f1 + f2 + f3</em>) yaitu  3 + 5 + 8 = 16.  Untuk mencapai 25 observasi diperlukan 9 observasi lagi.  9 observasi tersebut dapat dipenuhi dari frekuensi keempat (<em>f4</em>) karena jumlah observasi <em>f4</em> ada sebanyak 14 observasi.  Jadi median terletak pada kelas keempat atau kelas (60 – 69) dengan kata lain kelas keempat adalah kelas median.</p>
+<p>contoh:  Hitunglah nilai median dari data kelompok pada Tabel 1.</p>
+<p>solusi:</p>
+<p>​                        <a href="https://digensia.files.wordpress.com/2012/03/r6.png"><img alt="R6" src="https://digensia.files.wordpress.com/2012/03/r6.png?w=637" /></a></p>
+<p>Jadi mediannya,</p>
+<p>​                       <a href="https://digensia.files.wordpress.com/2012/03/r7.png"><img alt="R7" src="https://digensia.files.wordpress.com/2012/03/r7.png?w=637" /></a></p>
+<p>Pertanyaan yang mungkin timbul adalah jika kita punya data aslinya, apakah nilai median yang sebenarnya adalah 66,33?  jawabannya belum tentu, karena cara ini adalah cara interpolasi dimana data aslinya memang tidak diketahui, yang ada adalah data sudah dalam bentuk tabel frekuensi atau sudah dikelompokkan.  Walaupun hasil interpolasi ini mungkin tidak tepat, namun cara ini memberikan hasil yang mendekati nilai median yang sebenarnya.</p>
+<p><strong>Modus</strong></p>
+<p>Modus dari suatu kelompok observasi adalah nilai observasi yang mempunyai frekuensi pemunculan paling banyak atau dengan kata lain yaitu nilai yang paling banyak muncul.  Konsep dari modus ini berhubungan dengan kemunculan yang berulang-ulang dari suatu nilai observasi.</p>
+<p>Contoh:           jika kita gunakan data produksi 11 pohon pear, maka modus produksinya adalah 326 kg.</p>
+<p>Dalam kegiatan sehari-hari, modus adalah ukuran nilai tengah yang paling jarang digunakan dibanding rata-rata atau median.  Modus mungkin lebih sering digunakan pada data yang mempunyai banyak variasi dalam ukurannya, itupun untuk jumlah data yang besar.  Sebagai contoh modus dari ukuran barang yang terjual sering digunakan untuk mengetahui barang yang paling disenangi konsumen.</p>
+<p>Suatu distribusi atau kelompok data mungkin tidak mempunyai modus atau mungkin mempunyai modus lebih dari satu.  Distribusi yang mempunyai satu modus disebut Unimodus, yang mempunyai dua modus disebut Bimodus dan yang mempunyai modus lebih dari dua disebut Multimodus.  contoh:  Tentukan modus dari data dibawah ini, jika ada tentukan nilainya.</p>
+<p>a).        2,         3,         5,         7,         8.</p>
+<p>b).        2,         5,         7,         9,         9,         9,         10,       10,       11,       12.</p>
+<p>c).        2,         3,         4,         4,         4,         5,         5,         7,         7,         7,         9.</p>
+<p>solusi:</p>
+<p>Data a) tidak mempunyai modus karena semua nilai mempunyai frekuensi yang sama.</p>
+<p>Data b) mempunyai modus = 9, karena nilai observasi ini mempunyai frekuensi paling banyak.</p>
+<p>Data c) mempunyai dua modus yaitu 4 dan 7,  dua nilai observasi tersebut mempunyai frekuensi palingbanyak dan sama banyak.</p>
+<p><strong>Modus untuk data berkelompok</strong></p>
+<p>Apabila data sudah dikelompokkan dan disajikan dalam tabel frekuensi, maka modusnya mempunyai rumus sebagai berikut:</p>
+<p>​      <a href="https://digensia.files.wordpress.com/2012/03/r8.png"><img alt="R8" src="https://digensia.files.wordpress.com/2012/03/r8.png?w=435&amp;h=202" /></a></p>
+<p><strong>Kelas modus</strong> adalah kelas dimana terdapat nilai modus di dalamnya.</p>
+<p>Contoh:           Hitunglah nilai modus dari data kelompok pada Tabel 1.</p>
+<p>solusi:              Kelas modus adalah kelompok (60 – 69), karena kelompok ini mempunyai frekuensi paling banyak.</p>
+<p>​                          <a href="https://digensia.files.wordpress.com/2012/03/r9.png"><img alt="R9" src="https://digensia.files.wordpress.com/2012/03/r9.png?w=334&amp;h=154" /></a></p>
+<p><strong>Ukuran dispersi</strong></p>
+<p><strong>Varians</strong></p>
+<p>Dengan ukuran nilai tengah saja kita tidak akan pernah cukup untuk memberikan ringkasan karakteristik dari sebuah set data.  Bagaimana sebaran observari dari nilai rata-ratanya? Apakah observasi mempunyai dispersi atau penyimpangan yang besar dari rata-ratanya?   Kita biasanya memerlukan ukuran lainnya yaitu suatu ukuran tentang dispersi atau variasi didalam data. Pada kenyataannya nilai-nilai observasi suatu populasi ada yang lebih besar dari rata-rata dan ada yang lebih kecil dari rata.  Informasi ini yang biasanya merupakan keterangan tambahan mengenai karakteristik dari satu set data yaitu informasi mengenai jumlah penyimpangan dalam data. Biasanya kita tertarik dengan penyimpangan nilai-nilai observasi dalam data terhadap rata-ratanya yaitu selisihnya. Rata-rata dari selisih kuadrat tersebut merupakan suatu ukuran penyimpangan yang biasa disebut dengan <strong>varians</strong> dari observasi.  Simbol varians pada ukuran populasi adalah <a href="https://digensia.files.wordpress.com/2012/03/rumus101.png"><img alt="rumus10" src="https://digensia.files.wordpress.com/2012/03/rumus101.png?w=637" /></a> (dibaca: sigma kuadrat) dan pada ukuran sampel adalah <em>s</em><em>2</em>.</p>
+<p><strong>Simpangan baku</strong></p>
+<p>Akar dari varians dinamakan standar deviasi atau simpangan baku. Standar deviasi merupakan ukuran simpangan yang sering digunakan dalam analisa.    Nilai standar deviasi pada dasarnya menggambarkan besaran sebaran suatu kelompok data terhadap rata-ratanya atau dengan kata lain gambaran keheterogenan suatu kelompok data. Formula standar deviasi adalah sebagai berikut:</p>
+<p>​                 <a href="https://digensia.files.wordpress.com/2012/03/r10.png"><img alt="R10" src="https://digensia.files.wordpress.com/2012/03/r10.png?w=291&amp;h=300" /></a></p>
+<p>Contoh:  jika kita gunakan data produksi 11 pohon pear, maka varians produksinya adalah:</p>
+<p><a href="https://digensia.files.wordpress.com/2012/03/r11.png"><img alt="R11" src="https://digensia.files.wordpress.com/2012/03/r11.png?w=384&amp;h=96" /></a></p>
+<p>Dari hasil perhitungan didapat varians produksi dari 11 pohon pear adalah sebesar 2.575,2 kg.  sehingga standar deviasi produksinya adalah sebesar 50,75 kg.</p>
+<p>katakan kita mempunyai data produksi (dalam kg) sebanyak 10 pohon pear dengan jenis yang berbeda dengan kelompok 11 pohon pear sebelumnya, yaitu:</p>
+<p>230      475      366      268      136      330      326      402      215      492</p>
+<p>kelompok ini mempunyai nilai rata-rata yang sama dengan kelompok 11 pohon pear sebelumnya yaitu sebasar 324 kg.  Apakah dua kelompok pohon pear tersebut mempunyai kemampuan produksi yang sama?  atau dengan kata lain kelompok pohon pear mana yang lebih konsisten dalam berproduksi?  Jika harus memilih jenis pohon pear mana yang lebih konsisten berproduksi, maka kita akan memilih pohon pear pada kelompok yang mempunyai nilai varians terkecil (kelompok yang lebih homogen).</p>
+<p><strong>Varians untuk data berkelompok</strong></p>
+<p>Formula varians untuk data berkelompok adalah sebagai berikut:</p>
+<p>​    <a href="https://digensia.files.wordpress.com/2012/03/r12.png"><img alt="R12" src="https://digensia.files.wordpress.com/2012/03/r12.png?w=433&amp;h=200" /></a></p>
+<p>contoh:  kita gunakan data nilai statistik 50 mahasiswa.</p>
+<p><a href="https://digensia.files.wordpress.com/2012/03/r13.png"><img alt="R13" src="https://digensia.files.wordpress.com/2012/03/r13.png?w=573&amp;h=286" /></a></p>
+<p><strong>Koefisien variasi</strong></p>
+<p>Standar deviasi dapat mengukur keheterogenan atau variasi suatu kelompok data.  Namun jika kita ingin membandingkan dua kelompok data yang mempunyai ukuran yang berbeda, standar deviasi tidak dapat digunakan artinya standar deviasi yang lebih besar tidak selalu berarti kelompok data tersebut lebih heterogen  Untuk keperluan perbandingan dua kelompok data tanpa melihat ukuran satuannya, maka dapat digunakan suatu ukuran variasi yang dinamakan koefisien variasi (CV).  Rumus CV dituliskan sebagai berikut:</p>
+<p>​       <a href="https://digensia.files.wordpress.com/2012/03/r14.png"><img alt="R14" src="https://digensia.files.wordpress.com/2012/03/r14.png?w=234&amp;h=83" /></a></p>
+<p>Jika CV1 &gt; CV2 berarti kelompok data pertama lebih bervariasi atau lebih heterogen dari pada kelompok kedua.</p>
+<p><strong>Ukuran nilai jarak (Range)</strong></p>
+<p>Ukuran dispersi yang paling sederhana pada suatu data numerik mungkin dengan cara menghitung selisih nilai terbesar (nilai maksimum) dengan nilai terkecil (nilai minimum).  Cara ini dikenal dengan sebutan <em>Range</em>.</p>
+<p><em>Range</em> = Nilai maksimum – Nilai minimum.</p>
+<p><em>Range</em> produksi 11 pohon pear = 402 – 306  =  96</p>
+<p><strong>Ukuran</strong> <strong>Range</strong>  <strong>untuk data berkelompok</strong></p>
+<p>Untuk data berkelompok, nilai range dihitung berdasarkan selisih antara nilai tengah kelas terakhir dengan nilai tengah pertama atau selisih batas atas kelas terakhir dengan batas bawah kelas pertama.</p>
+<p><em>Range</em> = Nilai tengah kelas terakhir – Nilai tengah kelas pertama.</p>
+<p>atau</p>
+<p><em>Range</em> = Bonderi atas kelas terakhir – Bonderi bawah kelas pertama.</p>
+<p>dari data nilai statistik 50 mahasiswa pada tabel 1, nilai <em>range</em>nya adalah:</p>
+<p><em>Range</em> =  94,5 – 34,5  =  60  (cara ini cenderung menghilangkan nilai ekstrim).</p>
+<p>atau</p>
+<p><em>Range</em> =  99,5 – 29,5  =  70.</p>
+<h2 id="contoh-program">Contoh Program</h2>
+<pre><code class="python">from scipy import stats
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+import pandas as pd
+
+df = pd.read_csv(&quot;data.csv&quot;,sep=';')
+df
+</code></pre>
+
+<table>
+<thead>
+<tr>
+<th align="right">tinggibadan</th>
+<th align="right">beratbadan</th>
+<th align="right">usia</th>
+<th align="right">lingkarbadan</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right">0</td>
+<td align="right">159</td>
+<td align="right">61</td>
+<td align="right">39</td>
+<td>76</td>
+</tr>
+<tr>
+<td align="right">1</td>
+<td align="right">168</td>
+<td align="right">57</td>
+<td align="right">25</td>
+<td>72</td>
+</tr>
+<tr>
+<td align="right">2</td>
+<td align="right">157</td>
+<td align="right">67</td>
+<td align="right">39</td>
+<td>85</td>
+</tr>
+<tr>
+<td align="right">3</td>
+<td align="right">164</td>
+<td align="right">65</td>
+<td align="right">37</td>
+<td>76</td>
+</tr>
+<tr>
+<td align="right">4</td>
+<td align="right">169</td>
+<td align="right">58</td>
+<td align="right">37</td>
+<td>86</td>
+</tr>
+<tr>
+<td align="right">5</td>
+<td align="right">159</td>
+<td align="right">58</td>
+<td align="right">31</td>
+<td>86</td>
+</tr>
+<tr>
+<td align="right">6</td>
+<td align="right">161</td>
+<td align="right">62</td>
+<td align="right">38</td>
+<td>75</td>
+</tr>
+<tr>
+<td align="right">7</td>
+<td align="right">168</td>
+<td align="right">66</td>
+<td align="right">30</td>
+<td>81</td>
+</tr>
+<tr>
+<td align="right">8</td>
+<td align="right">165</td>
+<td align="right">56</td>
+<td align="right">34</td>
+<td>85</td>
+</tr>
+<tr>
+<td align="right">9</td>
+<td align="right">157</td>
+<td align="right">60</td>
+<td align="right">36</td>
+<td>82</td>
+</tr>
+<tr>
+<td align="right">10</td>
+<td align="right">162</td>
+<td align="right">66</td>
+<td align="right">33</td>
+<td>90</td>
+</tr>
+<tr>
+<td align="right">11</td>
+<td align="right">159</td>
+<td align="right">59</td>
+<td align="right">27</td>
+<td>76</td>
+</tr>
+<tr>
+<td align="right">12</td>
+<td align="right">152</td>
+<td align="right">57</td>
+<td align="right">38</td>
+<td>79</td>
+</tr>
+<tr>
+<td align="right">13</td>
+<td align="right">158</td>
+<td align="right">63</td>
+<td align="right">25</td>
+<td>79</td>
+</tr>
+<tr>
+<td align="right">14</td>
+<td align="right">158</td>
+<td align="right">68</td>
+<td align="right">26</td>
+<td>74</td>
+</tr>
+<tr>
+<td align="right">15</td>
+<td align="right">156</td>
+<td align="right">61</td>
+<td align="right">40</td>
+<td>89</td>
+</tr>
+<tr>
+<td align="right">16</td>
+<td align="right">170</td>
+<td align="right">56</td>
+<td align="right">31</td>
+<td>80</td>
+</tr>
+<tr>
+<td align="right">17</td>
+<td align="right">154</td>
+<td align="right">65</td>
+<td align="right">35</td>
+<td>82</td>
+</tr>
+<tr>
+<td align="right">18</td>
+<td align="right">169</td>
+<td align="right">61</td>
+<td align="right">37</td>
+<td>76</td>
+</tr>
+<tr>
+<td align="right">19</td>
+<td align="right">167</td>
+<td align="right">55</td>
+<td align="right">33</td>
+<td>71</td>
+</tr>
+<tr>
+<td align="right">20</td>
+<td align="right">151</td>
+<td align="right">58</td>
+<td align="right">40</td>
+<td>88</td>
+</tr>
+<tr>
+<td align="right">21</td>
+<td align="right">161</td>
+<td align="right">67</td>
+<td align="right">34</td>
+<td>78</td>
+</tr>
+<tr>
+<td align="right">22</td>
+<td align="right">151</td>
+<td align="right">66</td>
+<td align="right">34</td>
+<td>87</td>
+</tr>
+<tr>
+<td align="right">23</td>
+<td align="right">164</td>
+<td align="right">70</td>
+<td align="right">34</td>
+<td>77</td>
+</tr>
+<tr>
+<td align="right">24</td>
+<td align="right">160</td>
+<td align="right">64</td>
+<td align="right">37</td>
+<td>71</td>
+</tr>
+<tr>
+<td align="right">25</td>
+<td align="right">156</td>
+<td align="right">58</td>
+<td align="right">40</td>
+<td>90</td>
+</tr>
+<tr>
+<td align="right">26</td>
+<td align="right">166</td>
+<td align="right">69</td>
+<td align="right">27</td>
+<td>78</td>
+</tr>
+<tr>
+<td align="right">27</td>
+<td align="right">158</td>
+<td align="right">67</td>
+<td align="right">34</td>
+<td>80</td>
+</tr>
+<tr>
+<td align="right">28</td>
+<td align="right">169</td>
+<td align="right">59</td>
+<td align="right">25</td>
+<td>85</td>
+</tr>
+<tr>
+<td align="right">29</td>
+<td align="right">162</td>
+<td align="right">64</td>
+<td align="right">39</td>
+<td>81</td>
+</tr>
+<tr>
+<td align="right">...</td>
+<td align="right">...</td>
+<td align="right">...</td>
+<td align="right">...</td>
+<td>...</td>
+</tr>
+<tr>
+<td align="right">70</td>
+<td align="right">154</td>
+<td align="right">60</td>
+<td align="right">25</td>
+<td>78</td>
+</tr>
+<tr>
+<td align="right">71</td>
+<td align="right">155</td>
+<td align="right">56</td>
+<td align="right">28</td>
+<td>81</td>
+</tr>
+<tr>
+<td align="right">72</td>
+<td align="right">160</td>
+<td align="right">70</td>
+<td align="right">25</td>
+<td>85</td>
+</tr>
+<tr>
+<td align="right">73</td>
+<td align="right">162</td>
+<td align="right">61</td>
+<td align="right">35</td>
+<td>88</td>
+</tr>
+<tr>
+<td align="right">74</td>
+<td align="right">156</td>
+<td align="right">66</td>
+<td align="right">27</td>
+<td>82</td>
+</tr>
+<tr>
+<td align="right">75</td>
+<td align="right">163</td>
+<td align="right">63</td>
+<td align="right">31</td>
+<td>78</td>
+</tr>
+<tr>
+<td align="right">76</td>
+<td align="right">155</td>
+<td align="right">70</td>
+<td align="right">37</td>
+<td>87</td>
+</tr>
+<tr>
+<td align="right">77</td>
+<td align="right">162</td>
+<td align="right">60</td>
+<td align="right">33</td>
+<td>87</td>
+</tr>
+<tr>
+<td align="right">78</td>
+<td align="right">166</td>
+<td align="right">63</td>
+<td align="right">38</td>
+<td>83</td>
+</tr>
+<tr>
+<td align="right">79</td>
+<td align="right">159</td>
+<td align="right">70</td>
+<td align="right">37</td>
+<td>80</td>
+</tr>
+<tr>
+<td align="right">80</td>
+<td align="right">152</td>
+<td align="right">59</td>
+<td align="right">29</td>
+<td>75</td>
+</tr>
+<tr>
+<td align="right">81</td>
+<td align="right">158</td>
+<td align="right">55</td>
+<td align="right">31</td>
+<td>85</td>
+</tr>
+<tr>
+<td align="right">82</td>
+<td align="right">165</td>
+<td align="right">69</td>
+<td align="right">37</td>
+<td>73</td>
+</tr>
+<tr>
+<td align="right">83</td>
+<td align="right">170</td>
+<td align="right">65</td>
+<td align="right">36</td>
+<td>89</td>
+</tr>
+<tr>
+<td align="right">84</td>
+<td align="right">153</td>
+<td align="right">61</td>
+<td align="right">29</td>
+<td>86</td>
+</tr>
+<tr>
+<td align="right">85</td>
+<td align="right">167</td>
+<td align="right">57</td>
+<td align="right">32</td>
+<td>87</td>
+</tr>
+<tr>
+<td align="right">86</td>
+<td align="right">163</td>
+<td align="right">60</td>
+<td align="right">33</td>
+<td>76</td>
+</tr>
+<tr>
+<td align="right">87</td>
+<td align="right">162</td>
+<td align="right">60</td>
+<td align="right">28</td>
+<td>84</td>
+</tr>
+<tr>
+<td align="right">88</td>
+<td align="right">157</td>
+<td align="right">68</td>
+<td align="right">27</td>
+<td>74</td>
+</tr>
+<tr>
+<td align="right">89</td>
+<td align="right">155</td>
+<td align="right">62</td>
+<td align="right">25</td>
+<td>71</td>
+</tr>
+<tr>
+<td align="right">90</td>
+<td align="right">154</td>
+<td align="right">56</td>
+<td align="right">28</td>
+<td>79</td>
+</tr>
+<tr>
+<td align="right">91</td>
+<td align="right">161</td>
+<td align="right">68</td>
+<td align="right">30</td>
+<td>80</td>
+</tr>
+<tr>
+<td align="right">92</td>
+<td align="right">164</td>
+<td align="right">58</td>
+<td align="right">26</td>
+<td>83</td>
+</tr>
+<tr>
+<td align="right">93</td>
+<td align="right">156</td>
+<td align="right">63</td>
+<td align="right">35</td>
+<td>86</td>
+</tr>
+<tr>
+<td align="right">94</td>
+<td align="right">169</td>
+<td align="right">67</td>
+<td align="right">25</td>
+<td>77</td>
+</tr>
+<tr>
+<td align="right">95</td>
+<td align="right">166</td>
+<td align="right">62</td>
+<td align="right">37</td>
+<td>70</td>
+</tr>
+<tr>
+<td align="right">96</td>
+<td align="right">170</td>
+<td align="right">68</td>
+<td align="right">37</td>
+<td>81</td>
+</tr>
+<tr>
+<td align="right">97</td>
+<td align="right">169</td>
+<td align="right">57</td>
+<td align="right">28</td>
+<td>88</td>
+</tr>
+<tr>
+<td align="right">98</td>
+<td align="right">157</td>
+<td align="right">68</td>
+<td align="right">33</td>
+<td>90</td>
+</tr>
+<tr>
+<td align="right">99</td>
+<td align="right">158</td>
+<td align="right">55</td>
+<td align="right">40</td>
+<td>75</td>
+</tr>
+</tbody>
+</table>
+<p>100 rows × 4 columns</p>
+<pre><code class="python">from IPython.display import HTML, display
+import tabulate
+table=[
+        [&quot;method&quot;]+[x for x in df.columns],
+        [&quot;data&quot;]+[df[col].count() for col in df.columns],
+        [&quot;rata-rata&quot;]+[df[col].mean() for col in df.columns],
+        [&quot;std&quot;]+[&quot;{:.2f}&quot;.format(df[col].std()) for col in df.columns],
+        [&quot;min&quot;]+[df[col].min() for col in df.columns],
+        [&quot;max&quot;]+[df[col].max() for col in df.columns],
+        [&quot;Q1&quot;]+[df[col].quantile(0.25) for col in df.columns],
+        [&quot;Q2&quot;]+[df[col].quantile(0.50) for col in df.columns],
+        [&quot;Q3&quot;]+[df[col].quantile(0.75) for col in df.columns],
+        [&quot;skew&quot;]+[&quot;{:.2f}&quot;.format(df[col].skew()) for col in df.columns],
+    ]
+
+display(HTML(tabulate.tabulate(table, tablefmt='html')))
+</code></pre>
+
+<p><img alt="Untitled" src="C:\Users\Oryzha\datamining\docs\Untitled.png" /></p>
+<h3 id="pustaka">Pustaka</h3>
+<p>https://digensia.wordpress.com/2012/03/15/statistik-deskriptif/</p></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
